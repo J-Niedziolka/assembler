@@ -1,0 +1,3 @@
+﻿  Assembling menu.asm...
+menu.asm(8): error A2006: undefined symbol : WYBOR2222
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\menu.obj" /W3 /errorReport:prompt  /Tamenu.asm" exited with code 1.

@@ -1,0 +1,18 @@
+katalog   DB  "\Grupa2",0
+	adreskat  DB  128 dup(?)
+	adreskl   DD  128
+
+    plikdat   DB  "\Niedzió³ka.dat",0
+    adresdat  DB  128 dup(?)
+    adresdl    DD  128
+
+    pliktxt   DB  "\Niedzió³ka.txt",0
+	adrestxt	DB	128 dup(?)
+    adrestl    DD   128
+
+    liczbaZapisanychBajtow  DD  128 dup(?)
+    bytes_read  db  ?
+	komunikatLiczba	DB	"%ld ",0  ;%ld oznacza formatowanie w formacie dziesiêtnym
+	ALIGN	4
+	rozmiarKomunikatLiczba	DD	$ - komunikatLiczba	;liczba znaków w tablicy
+	

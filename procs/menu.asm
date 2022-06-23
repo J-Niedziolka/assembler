@@ -1,0 +1,22 @@
+.586P
+.MODEL FLAT, STDCALL
+
+lstrlenA PROTO :DWORD
+CharToOemA PROTO :DWORD,:DWORD
+WriteConsoleA PROTO :DWORD,:DWORD,:DWORD,:DWORD,:DWORD
+
+PUBLIC WYBOR2222
+_DATA SEGMENT
+	
+
+	rout            DD      0
+    hout            DD      0
+_DATA ENDS
+_TEXT SEGMENT
+	zmienna  DD		0
+	
+	WYBOR PROTO
+
+	
+_TEXT ENDS
+END
